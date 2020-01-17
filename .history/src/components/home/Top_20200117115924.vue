@@ -43,7 +43,7 @@
           </div>
           <div class="rule">
             <div class="cores">美团规则</div>
-            <div class="Catalog">
+            <div class="my">
               <div>规则中心</div>
               <div>规则目录</div>
               <div>规则评议院</div>
@@ -201,26 +201,26 @@ export default {
     background: #ffffff;
   }
 }
-.rule {
+.mys {
   position: relative;
   padding: 0 14px;
-  .Catalog {
+  .my {
     position: absolute;
     top: 40px;
     left: 0;
     right: 0;
     display: none;
   }
-  .cores:hover {
+  .myss:hover {
     color: #fe8c00;
   }
 }
-.rule:hover {
+.mys:hover {
   background: #ffffff;
   box-shadow: 0 3px 5px 0;
   text-align: center;
 
-  .Catalog {
+  .my {
     display: block;
     box-shadow: 0 3px 5px 0;
     text-align: center;

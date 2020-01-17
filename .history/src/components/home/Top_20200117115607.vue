@@ -27,7 +27,7 @@
               <div>账户设置</div>
             </div>
           </div>
-          <div class="app">手机APP</div>
+          <div>手机APP</div>
           <div class="business">
             <div class="core">商家中心</div>
             <div class="Restaurant">
@@ -41,15 +41,7 @@
               <div>免费合作美团排队</div>
             </div>
           </div>
-          <div class="rule">
-            <div class="cores">美团规则</div>
-            <div class="Catalog">
-              <div>规则中心</div>
-              <div>规则目录</div>
-              <div>规则评议院</div>
-            
-            </div>
-          </div>
+          <div>美团规则</div>
           <div>网站导航</div>
         </div>
       </div>
@@ -171,9 +163,6 @@ export default {
     background: #ffffff;
   }
 }
-.app:hover {
-  color: #fe8c00;
-}
 
 .business {
   position: relative;
@@ -195,32 +184,6 @@ export default {
   text-align: center;
 
   .Restaurant {
-    display: block;
-    box-shadow: 0 3px 5px 0;
-    text-align: center;
-    background: #ffffff;
-  }
-}
-.rule {
-  position: relative;
-  padding: 0 14px;
-  .Catalog {
-    position: absolute;
-    top: 40px;
-    left: 0;
-    right: 0;
-    display: none;
-  }
-  .cores:hover {
-    color: #fe8c00;
-  }
-}
-.rule:hover {
-  background: #ffffff;
-  box-shadow: 0 3px 5px 0;
-  text-align: center;
-
-  .Catalog {
     display: block;
     box-shadow: 0 3px 5px 0;
     text-align: center;

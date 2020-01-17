@@ -204,7 +204,7 @@ export default {
 .rule {
   position: relative;
   padding: 0 14px;
-  .Catalog {
+  .my {
     position: absolute;
     top: 40px;
     left: 0;
@@ -220,7 +220,7 @@ export default {
   box-shadow: 0 3px 5px 0;
   text-align: center;
 
-  .Catalog {
+  .my {
     display: block;
     box-shadow: 0 3px 5px 0;
     text-align: center;

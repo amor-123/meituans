@@ -19,7 +19,7 @@
 
         <div class="right">
           <div class="mys">
-            <div class="myss">我的美团</div>
+            <div >我的美团</div>
             <div class="my">
               <div>我的订单</div>
               <div>我的收藏</div>
@@ -27,29 +27,9 @@
               <div>账户设置</div>
             </div>
           </div>
-          <div class="app">手机APP</div>
-          <div class="business">
-            <div class="core">商家中心</div>
-            <div class="Restaurant">
-              <div>美团餐饮商户中心</div>
-              <div>登录商家中心</div>
-              <div>美团智能收银</div>
-              <div>我想合作</div>
-              <div>手机免费开店</div>
-              <div>餐饮代理商招募</div>
-              <div>商家申请开票</div>
-              <div>免费合作美团排队</div>
-            </div>
-          </div>
-          <div class="rule">
-            <div class="cores">美团规则</div>
-            <div class="Catalog">
-              <div>规则中心</div>
-              <div>规则目录</div>
-              <div>规则评议院</div>
-            
-            </div>
-          </div>
+          <div>手机APP</div>
+          <div>商家中心</div>
+          <div>美团规则</div>
           <div>网站导航</div>
         </div>
       </div>
@@ -93,11 +73,13 @@ export default {
 .top {
   width: 100%;
   height: 40px;
+  border: 1px solid red;
   background: #f8f8f8;
 }
 .Inner {
   width: 1200px;
   height: 40px;
+  border: 1px solid red;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -142,89 +124,21 @@ export default {
   display: flex;
   justify-content: space-around;
   line-height: 40px;
-  color: gray;
 }
-
-.mys {
-  position: relative;
-  padding: 0 14px;
-  .my {
-    position: absolute;
-    top: 40px;
-    left: 0;
-    right: 0;
-    display: none;
-  }
-  .myss:hover {
-    color: #fe8c00;
-  }
+.my {
+  position: absolute;
+  display: none;
 }
 .mys:hover {
-  background: #ffffff;
-  box-shadow: 0 3px 5px 0;
-  text-align: center;
-
+  background: #FFFFFF;
+    box-shadow: 0 3px 5px 0;
+   
+   padding:30px;
+    border: 1px solid red;
   .my {
-    display: block;
-    box-shadow: 0 3px 5px 0;
-    text-align: center;
-    background: #ffffff;
-  }
-}
-.app:hover {
-  color: #fe8c00;
-}
-
-.business {
-  position: relative;
-  padding: 0 14px;
-  .Restaurant {
-    position: absolute;
-    top: 40px;
-    left: -30px;
-    right: 0;
-    display: none;
-  }
-  .core:hover {
-    color: #fe8c00;
-  }
-}
-.business:hover {
-  background: #ffffff;
-  box-shadow: 0 3px 5px 0;
-  text-align: center;
-
-  .Restaurant {
-    display: block;
-    box-shadow: 0 3px 5px 0;
-    text-align: center;
-    background: #ffffff;
-  }
-}
-.rule {
-  position: relative;
-  padding: 0 14px;
-  .Catalog {
-    position: absolute;
-    top: 40px;
-    left: 0;
-    right: 0;
-    display: none;
-  }
-  .cores:hover {
-    color: #fe8c00;
-  }
-}
-.rule:hover {
-  background: #ffffff;
-  box-shadow: 0 3px 5px 0;
-  text-align: center;
-
-  .Catalog {
-    display: block;
-    box-shadow: 0 3px 5px 0;
-    text-align: center;
-    background: #ffffff;
+    display: block !important;
+    z-index: 9999;
+    
   }
 }
 </style>
