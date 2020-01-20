@@ -101,23 +101,14 @@
               <div class="film">
                 <div class="look">看电影</div>
                 <div>热映电影</div>
-                <div>热门影院</div>
+                <div>热门影院 </div>
                 <div>热映电影口碑榜</div>
                 <div>最受期待电影</div>
                 <div>国内票房榜</div>
                 <div>北美票房榜</div>
                 <div>电影排行榜</div>
               </div>
-              <div>
-                <div class="Tourism">手机应用</div>
-                <div class="img">
-                  <img src="../../assets/meituan.png" alt="">
-                  <img src="../../assets/meituan.png" alt="">
-                  <img src="../../assets/meituan.png" alt="">
-                  <img src="../../assets/meituan.png" alt="">
-                  <img src="../../assets/meituan.png" alt="">
-                </div>
-              </div>
+              <div class="Tourism">手机应用</div>
             </div>
           </div>
         </div>
@@ -206,11 +197,11 @@ export default {
 }
 .right {
   width: 370px;
-  height: 40px;
+  // height: 40px;
   font-size: 12px;
   display: flex;
   justify-content: space-around;
-  margin-top: 10px;
+  line-height: 40px;
   color: gray;
 }
 
@@ -310,7 +301,7 @@ export default {
     color: #fe8c00;
   }
 }
-.website:hover {
+.website {
   // background: #ffffff;
   background: skyblue;
   box-shadow: 0 3px 5px 0;
@@ -366,15 +357,11 @@ export default {
     justify-content: space-around;
   }
 }
-.film {
+.film{
   width: 100px;
   border: 1px solid black;
-  .look {
+  .look{
     font-size: 16px;
   }
-}
-.img img{
-  width: 70px;
-  height: 70px;
 }
 </style>

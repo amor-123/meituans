@@ -99,25 +99,16 @@
                 </div>
               </div>
               <div class="film">
-                <div class="look">看电影</div>
+                <div>看电影</div>
                 <div>热映电影</div>
-                <div>热门影院</div>
-                <div>热映电影口碑榜</div>
-                <div>最受期待电影</div>
-                <div>国内票房榜</div>
-                <div>北美票房榜</div>
-                <div>电影排行榜</div>
+                <div>热门影院 </div>
+                <div>看电影</div>
+                <div>看电影</div>
+                <div>看电影</div>
+                <div>看电影</div>
+                <div>看电影</div>
               </div>
-              <div>
-                <div class="Tourism">手机应用</div>
-                <div class="img">
-                  <img src="../../assets/meituan.png" alt="">
-                  <img src="../../assets/meituan.png" alt="">
-                  <img src="../../assets/meituan.png" alt="">
-                  <img src="../../assets/meituan.png" alt="">
-                  <img src="../../assets/meituan.png" alt="">
-                </div>
-              </div>
+              <div class="Tourism">手机APP</div>
             </div>
           </div>
         </div>
@@ -210,7 +201,7 @@ export default {
   font-size: 12px;
   display: flex;
   justify-content: space-around;
-  margin-top: 10px;
+  line-height: 40px;
   color: gray;
 }
 
@@ -366,15 +357,8 @@ export default {
     justify-content: space-around;
   }
 }
-.film {
-  width: 100px;
+.film{
+  width: 200px;
   border: 1px solid black;
-  .look {
-    font-size: 16px;
-  }
-}
-.img img{
-  width: 70px;
-  height: 70px;
 }
 </style>

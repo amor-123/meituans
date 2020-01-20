@@ -52,72 +52,35 @@
             <div class="Navigation">网站导航</div>
             <div class="deviation">
               <div class="Travel">
-                <div class="Tourism">酒店旅游</div>
+                <div>酒店旅游</div>
                 <div class="ticket">
                   <div>国际机票</div>
                   <div>火车票</div>
                   <div>民宿</div>
                 </div>
-                <div class="hotel">
+                <div class='hotel'>
                   <div>经济型酒店</div>
                   <div>主题酒店</div>
                   <div>商务酒店</div>
                 </div>
-                <div class="Inn">
+                <div class='Inn'>
                   <div>公寓</div>
                   <div>豪华酒店</div>
                   <div>客栈</div>
                 </div>
-                <div class="Villa">
+                <div class='Villa'>
                   <div>青年旅社</div>
                   <div>度假酒店</div>
                   <div>别墅</div>
                 </div>
-                <div class="House">
+                <div class='House'>
                   <div>农家院</div>
-                  <div></div>
-                  <div></div>
+                 
                 </div>
               </div>
-              <div class="Delicious">
-                <div class="food">吃美食</div>
-                <div class="classification">
-                  <div>
-                    <ul>
-                      <li>烤鱼</li>
-                      <li>烧烤</li>
-                      <li>火锅</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <ul>
-                      <li>特色小吃</li>
-                      <li>自助餐</li>
-                      <li>代金券</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="film">
-                <div class="look">看电影</div>
-                <div>热映电影</div>
-                <div>热门影院</div>
-                <div>热映电影口碑榜</div>
-                <div>最受期待电影</div>
-                <div>国内票房榜</div>
-                <div>北美票房榜</div>
-                <div>电影排行榜</div>
-              </div>
-              <div>
-                <div class="Tourism">手机应用</div>
-                <div class="img">
-                  <img src="../../assets/meituan.png" alt="">
-                  <img src="../../assets/meituan.png" alt="">
-                  <img src="../../assets/meituan.png" alt="">
-                  <img src="../../assets/meituan.png" alt="">
-                  <img src="../../assets/meituan.png" alt="">
-                </div>
-              </div>
+              <div>吃美食</div>
+              <div>看电影</div>
+              <div>手机APP</div>
             </div>
           </div>
         </div>
@@ -210,7 +173,7 @@ export default {
   font-size: 12px;
   display: flex;
   justify-content: space-around;
-  margin-top: 10px;
+  line-height: 40px;
   color: gray;
 }
 
@@ -326,55 +289,29 @@ export default {
     height: 300px;
   }
 }
-.Travel {
-  width: 350px;
+.Travel{
+  width: 400px;
   height: 300px;
   border: 1px solid black;
-  .Tourism {
-    font-size: 16px;
-  }
-  .ticket {
+  .ticket{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around
   }
-  .hotel {
+  .hotel{
+     display: flex;
+    justify-content: space-around
+  }
+  .Inn{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around
   }
-  .Inn {
+  .Villa{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around
   }
-  .Villa {
+  .House{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around
   }
-  .House {
-    display: flex;
-    justify-content: space-around;
-  }
-}
-.Delicious {
-  width: 200px;
-  height: 300px;
-  border: 1px solid black;
-  .food {
-    font-size: 16px;
-  }
-  .classification {
-    display: flex;
-    justify-content: space-around;
-  }
-}
-.film {
-  width: 100px;
-  border: 1px solid black;
-  .look {
-    font-size: 16px;
-  }
-}
-.img img{
-  width: 70px;
-  height: 70px;
 }
 </style>

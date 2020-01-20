@@ -110,7 +110,7 @@
               </div>
               <div>
                 <div class="Tourism">手机应用</div>
-                <div class="img">
+                <div>
                   <img src="../../assets/meituan.png" alt="">
                   <img src="../../assets/meituan.png" alt="">
                   <img src="../../assets/meituan.png" alt="">
@@ -372,9 +372,5 @@ export default {
   .look {
     font-size: 16px;
   }
-}
-.img img{
-  width: 70px;
-  height: 70px;
 }
 </style>

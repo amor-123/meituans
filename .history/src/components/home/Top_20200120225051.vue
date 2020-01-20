@@ -83,41 +83,23 @@
                 <div class="food">吃美食</div>
                 <div class="classification">
                   <div>
-                    <ul>
-                      <li>烤鱼</li>
-                      <li>烧烤</li>
-                      <li>火锅</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <ul>
-                      <li>特色小吃</li>
-                      <li>自助餐</li>
-                      <li>代金券</li>
-                    </ul>
-                  </div>
+                  <ul>
+                    <li>烤鱼</li>
+                    <li>烧烤</li>
+                    <li>火锅</li>
+                  </ul>
+                </div>
+                <div>
+                  <ul>
+                    <li>特色小吃</li>
+                    <li>自助餐</li>
+                    <li>代金券</li>
+                  </ul>
+                </div>
                 </div>
               </div>
-              <div class="film">
-                <div class="look">看电影</div>
-                <div>热映电影</div>
-                <div>热门影院</div>
-                <div>热映电影口碑榜</div>
-                <div>最受期待电影</div>
-                <div>国内票房榜</div>
-                <div>北美票房榜</div>
-                <div>电影排行榜</div>
-              </div>
-              <div>
-                <div class="Tourism">手机应用</div>
-                <div class="img">
-                  <img src="../../assets/meituan.png" alt="">
-                  <img src="../../assets/meituan.png" alt="">
-                  <img src="../../assets/meituan.png" alt="">
-                  <img src="../../assets/meituan.png" alt="">
-                  <img src="../../assets/meituan.png" alt="">
-                </div>
-              </div>
+              <div class="Tourism">看电影</div>
+              <div class="Tourism">手机APP</div>
             </div>
           </div>
         </div>
@@ -210,7 +192,7 @@ export default {
   font-size: 12px;
   display: flex;
   justify-content: space-around;
-  margin-top: 10px;
+  line-height: 40px;
   color: gray;
 }
 
@@ -327,7 +309,7 @@ export default {
   }
 }
 .Travel {
-  width: 350px;
+  width: 400px;
   height: 300px;
   border: 1px solid black;
   .Tourism {
@@ -358,23 +340,10 @@ export default {
   width: 200px;
   height: 300px;
   border: 1px solid black;
-  .food {
-    font-size: 16px;
-  }
-  .classification {
+  .classification{
     display: flex;
-    justify-content: space-around;
+    text-align: center;
+    border: 1px solid red
   }
-}
-.film {
-  width: 100px;
-  border: 1px solid black;
-  .look {
-    font-size: 16px;
-  }
-}
-.img img{
-  width: 70px;
-  height: 70px;
 }
 </style>
