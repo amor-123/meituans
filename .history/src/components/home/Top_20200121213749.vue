@@ -214,9 +214,8 @@ export default {
   font-size: 12px;
   display: flex;
   justify-content: space-around;
-  // margin-top: 10px;
+  margin-top: 10px;
   color: gray;
-  line-height: 40px;
 }
 
 .mys {
@@ -233,9 +232,6 @@ export default {
     color: #fe8c00;
   }
 }
-// .my div{
-//   margin-top: 15px;
-// }
 .mys:hover {
   background: #ffffff;
   box-shadow: 0 3px 5px 0;
@@ -266,9 +262,6 @@ export default {
     color: #fe8c00;
   }
 }
-// .Restaurant div{
-//   margin-top: 15px;
-// }
 .business:hover {
   background: #ffffff;
   box-shadow: 0 3px 5px 0;
@@ -295,9 +288,6 @@ export default {
     color: #fe8c00;
   }
 }
-// .Catalog div{
-//   margin-top: 15px
-// }
 .rule:hover {
   background: #ffffff;
   box-shadow: 0 3px 5px 0;
@@ -336,7 +326,7 @@ export default {
     text-align: center;
     background: #ffffff;
     display: flex;
-    height: 360px;
+    height: 300px;
   }
 }
 .Travel {
@@ -371,9 +361,9 @@ export default {
     justify-content: space-around;
   }
 }
-// .Hotelcategory div{
-//   margin-top: 5px;    
-// }
+.Hotelcategory div{
+  margin-top: 5px;    
+}
 .Delicious {
   width: 200px;
   height: 300px;
@@ -389,9 +379,9 @@ export default {
   }
  
 }
-//  .classification ul li{
-//     margin-top: 5px;
-//   }
+ .classification ul li{
+    margin-top: 5px;
+  }
 .film {
   width: 100px;
   .look {
@@ -403,9 +393,9 @@ export default {
     margin-top: 20px;
   }
 }
-// .Movie:hover{
-//    color: #fe8c00;
-// }
+.Movie div{
+  margin-top: 5px;
+}
 .img {
   margin-top: 20px;
 }

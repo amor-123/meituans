@@ -403,9 +403,9 @@ export default {
     margin-top: 20px;
   }
 }
-// .Movie:hover{
-//    color: #fe8c00;
-// }
+.Movie:hover{
+   color: #fe8c00;
+}
 .img {
   margin-top: 20px;
 }

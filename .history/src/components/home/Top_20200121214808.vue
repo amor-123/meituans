@@ -336,7 +336,7 @@ export default {
     text-align: center;
     background: #ffffff;
     display: flex;
-    height: 360px;
+    height: 380px;
   }
 }
 .Travel {
@@ -403,8 +403,8 @@ export default {
     margin-top: 20px;
   }
 }
-// .Movie:hover{
-//    color: #fe8c00;
+// .Movie div{
+//   margin-top: 5px;
 // }
 .img {
   margin-top: 20px;

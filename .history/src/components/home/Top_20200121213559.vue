@@ -118,8 +118,8 @@
                   <img src="../../assets/meituan.png" alt />
                   <img src="../../assets/waimai.png" alt />
                   <img src="../../assets/162c3308d9622f6d9cfaa49e60be4dca8573.png" alt />
-                  <img src="../../assets/dianping.png" alt />
-                  <img src="../../assets/maoyan.png" alt />
+                  <img src="../../assets/meituan.png" alt />
+                  <img src="../../assets/meituan.png" alt />
                 </div>
               </div>
             </div>
@@ -214,9 +214,8 @@ export default {
   font-size: 12px;
   display: flex;
   justify-content: space-around;
-  // margin-top: 10px;
+  margin-top: 10px;
   color: gray;
-  line-height: 40px;
 }
 
 .mys {
@@ -233,9 +232,6 @@ export default {
     color: #fe8c00;
   }
 }
-// .my div{
-//   margin-top: 15px;
-// }
 .mys:hover {
   background: #ffffff;
   box-shadow: 0 3px 5px 0;
@@ -266,9 +262,6 @@ export default {
     color: #fe8c00;
   }
 }
-// .Restaurant div{
-//   margin-top: 15px;
-// }
 .business:hover {
   background: #ffffff;
   box-shadow: 0 3px 5px 0;
@@ -295,9 +288,6 @@ export default {
     color: #fe8c00;
   }
 }
-// .Catalog div{
-//   margin-top: 15px
-// }
 .rule:hover {
   background: #ffffff;
   box-shadow: 0 3px 5px 0;
@@ -326,7 +316,8 @@ export default {
   }
 }
 .website:hover {
-  background: #ffffff;
+  // background: #ffffff;
+  background: skyblue;
   box-shadow: 0 3px 5px 0;
   text-align: center;
 
@@ -335,13 +326,15 @@ export default {
     box-shadow: 0 3px 5px 0;
     text-align: center;
     background: #ffffff;
+    background: skyblue;
     display: flex;
-    height: 360px;
+    height: 300px;
   }
 }
 .Travel {
   width: 350px;
   height: 300px;
+  border: 1px solid black;
   .Hotelcategory{
     margin-top: 20px;
   }
@@ -371,12 +364,13 @@ export default {
     justify-content: space-around;
   }
 }
-// .Hotelcategory div{
-//   margin-top: 5px;    
-// }
+.Hotelcategory div{
+  margin-top: 5px;    
+}
 .Delicious {
   width: 200px;
   height: 300px;
+  border: 1px solid black;
   .food {
     font-size: 16px;
     margin-top: 20px;
@@ -389,11 +383,12 @@ export default {
   }
  
 }
-//  .classification ul li{
-//     margin-top: 5px;
-//   }
+ .classification ul li{
+    margin-top: 5px;
+  }
 .film {
   width: 100px;
+  border: 1px solid black;
   .look {
     font-size: 16px;
     margin-top: 20px;
@@ -403,9 +398,9 @@ export default {
     margin-top: 20px;
   }
 }
-// .Movie:hover{
-//    color: #fe8c00;
-// }
+.Movie div{
+  margin-top: 5px;
+}
 .img {
   margin-top: 20px;
 }

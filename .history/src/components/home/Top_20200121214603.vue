@@ -336,12 +336,12 @@ export default {
     text-align: center;
     background: #ffffff;
     display: flex;
-    height: 360px;
+    height: 300px;
   }
 }
 .Travel {
   width: 350px;
-  height: 300px;
+  height: 400px;
   .Hotelcategory{
     margin-top: 20px;
   }
@@ -371,9 +371,9 @@ export default {
     justify-content: space-around;
   }
 }
-// .Hotelcategory div{
-//   margin-top: 5px;    
-// }
+.Hotelcategory div{
+  margin-top: 5px;    
+}
 .Delicious {
   width: 200px;
   height: 300px;
@@ -389,9 +389,9 @@ export default {
   }
  
 }
-//  .classification ul li{
-//     margin-top: 5px;
-//   }
+ .classification ul li{
+    margin-top: 5px;
+  }
 .film {
   width: 100px;
   .look {
@@ -403,9 +403,9 @@ export default {
     margin-top: 20px;
   }
 }
-// .Movie:hover{
-//    color: #fe8c00;
-// }
+.Movie div{
+  margin-top: 5px;
+}
 .img {
   margin-top: 20px;
 }

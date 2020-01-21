@@ -53,32 +53,30 @@
             <div class="deviation">
               <div class="Travel">
                 <div class="Tourism">酒店旅游</div>
-                <div class='Hotelcategory'>
-                  <div class="ticket">
-                    <div>国际机票</div>
-                    <div>火车票</div>
-                    <div>民宿</div>
-                  </div>
-                  <div class="hotel">
-                    <div>经济型酒店</div>
-                    <div>主题酒店</div>
-                    <div>商务酒店</div>
-                  </div>
-                  <div class="Inn">
-                    <div>公寓</div>
-                    <div>豪华酒店</div>
-                    <div>客栈</div>
-                  </div>
-                  <div class="Villa">
-                    <div>青年旅社</div>
-                    <div>度假酒店</div>
-                    <div>别墅</div>
-                  </div>
-                  <div class="House">
-                    <div>农家院</div>
-                    <div></div>
-                    <div></div>
-                  </div>
+                <div class="ticket">
+                  <div>国际机票</div>
+                  <div>火车票</div>
+                  <div>民宿</div>
+                </div>
+                <div class="hotel">
+                  <div>经济型酒店</div>
+                  <div>主题酒店</div>
+                  <div>商务酒店</div>
+                </div>
+                <div class="Inn">
+                  <div>公寓</div>
+                  <div>豪华酒店</div>
+                  <div>客栈</div>
+                </div>
+                <div class="Villa">
+                  <div>青年旅社</div>
+                  <div>度假酒店</div>
+                  <div>别墅</div>
+                </div>
+                <div class="House">
+                  <div>农家院</div>
+                  <div></div>
+                  <div></div>
                 </div>
               </div>
               <div class="Delicious">
@@ -102,24 +100,22 @@
               </div>
               <div class="film">
                 <div class="look">看电影</div>
-                <div class="Movie">
-                  <div>热映电影</div>
-                  <div>热门影院</div>
-                  <div>热映电影口碑榜</div>
-                  <div>最受期待电影</div>
-                  <div>国内票房榜</div>
-                  <div>北美票房榜</div>
-                  <div>电影排行榜</div>
-                </div>
+                <div>热映电影</div>
+                <div>热门影院</div>
+                <div>热映电影口碑榜</div>
+                <div>最受期待电影</div>
+                <div>国内票房榜</div>
+                <div>北美票房榜</div>
+                <div>电影排行榜</div>
               </div>
               <div>
                 <div class="Tourism">手机应用</div>
                 <div class="img">
-                  <img src="../../assets/meituan.png" alt />
-                  <img src="../../assets/waimai.png" alt />
-                  <img src="../../assets/162c3308d9622f6d9cfaa49e60be4dca8573.png" alt />
-                  <img src="../../assets/dianping.png" alt />
-                  <img src="../../assets/maoyan.png" alt />
+                  <img src="../../assets/meituan.png" alt="">
+                  <img src="../../assets/meituan.png" alt="">
+                  <img src="../../assets/meituan.png" alt="">
+                  <img src="../../assets/meituan.png" alt="">
+                  <img src="../../assets/meituan.png" alt="">
                 </div>
               </div>
             </div>
@@ -214,9 +210,8 @@ export default {
   font-size: 12px;
   display: flex;
   justify-content: space-around;
-  // margin-top: 10px;
+  margin-top: 10px;
   color: gray;
-  line-height: 40px;
 }
 
 .mys {
@@ -233,9 +228,6 @@ export default {
     color: #fe8c00;
   }
 }
-// .my div{
-//   margin-top: 15px;
-// }
 .mys:hover {
   background: #ffffff;
   box-shadow: 0 3px 5px 0;
@@ -266,9 +258,6 @@ export default {
     color: #fe8c00;
   }
 }
-// .Restaurant div{
-//   margin-top: 15px;
-// }
 .business:hover {
   background: #ffffff;
   box-shadow: 0 3px 5px 0;
@@ -295,9 +284,6 @@ export default {
     color: #fe8c00;
   }
 }
-// .Catalog div{
-//   margin-top: 15px
-// }
 .rule:hover {
   background: #ffffff;
   box-shadow: 0 3px 5px 0;
@@ -319,14 +305,15 @@ export default {
     left: -1140px;
     right: 0;
     display: none;
-    justify-content: space-around;
+    justify-content: space-around
   }
   .Navigation:hover {
     color: #fe8c00;
   }
 }
 .website:hover {
-  background: #ffffff;
+  // background: #ffffff;
+  background: skyblue;
   box-shadow: 0 3px 5px 0;
   text-align: center;
 
@@ -335,20 +322,18 @@ export default {
     box-shadow: 0 3px 5px 0;
     text-align: center;
     background: #ffffff;
+    background: skyblue;
     display: flex;
-    height: 360px;
+    height: 300px;
   }
 }
 .Travel {
   width: 350px;
   height: 300px;
-  .Hotelcategory{
-    margin-top: 20px;
-  }
+  border: 1px solid black;
   .Tourism {
     font-size: 16px;
-    margin-top: 20px;
-    color: black
+    margin-top:20px;
   }
   .ticket {
     display: flex;
@@ -371,52 +356,38 @@ export default {
     justify-content: space-around;
   }
 }
-// .Hotelcategory div{
-//   margin-top: 5px;    
-// }
 .Delicious {
   width: 200px;
   height: 300px;
+  border: 1px solid black;
   .food {
     font-size: 16px;
-    margin-top: 20px;
-    color: black
+    margin-top:20px;
   }
   .classification {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
   }
- 
 }
-//  .classification ul li{
-//     margin-top: 5px;
-//   }
 .film {
   width: 100px;
+  border: 1px solid black;
   .look {
     font-size: 16px;
-    margin-top: 20px;
-    color: black
-  }
-  .Movie {
-    margin-top: 20px;
+    margin-top:20px;
   }
 }
-// .Movie:hover{
-//    color: #fe8c00;
-// }
-.img {
+.img{
   margin-top: 20px;
 }
-.img img {
+  .img img{
   width: 70px;
   height: 70px;
+
 }
 
-.Tourism {
-  font-size: 16px;
-  margin-top: 20px;
-  color: black
-}
+  .Tourism{
+    font-size: 16px;
+    margin-top:20px;
+  }
 </style>
