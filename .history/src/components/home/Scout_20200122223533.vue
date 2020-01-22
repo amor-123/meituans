@@ -9,7 +9,7 @@
           <div class="meituan">美团</div>
         </div>
         <div class="Magnifier">
-          <Input search enter-button placeholder="搜索商家或地点" size="large" style="width:550px " />
+          <Input search enter-button placeholder="搜索商家或地点" size="large" style="width:6 00px " />
         </div>
       </div>
       <div class="introduce">
@@ -87,7 +87,7 @@ export default {
     font-size: 16px;
     font-weight: 700;
     color: black;
-    margin: 20px 250px;
+    margin: 20px 200px;
   }
   .introduce div {
     margin-left: 40px;

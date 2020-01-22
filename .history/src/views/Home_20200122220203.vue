@@ -1,0 +1,31 @@
+<template class="box">
+  <div >
+  <Top></Top>
+  <Scout></Scout>
+
+  </div>
+</template>
+
+<script>
+import Top from '../components/Home/Top'
+import Scout from '../components/Home/Scout'
+export default {
+  data() {
+    return {};
+  },
+  components: {
+    Top,
+    Scout,
+  },
+  methods: {},
+  mounted() {},
+  watch: {},
+  computed: {}
+};
+</script>
+
+<style scoped lang='scss'>
+.box{
+  background: gray
+}
+</style>
