@@ -9,16 +9,16 @@
           <div class="meituan">美团</div>
         </div>
         <div class="Magnifier">
-          <Input search enter-button placeholder="搜索商家或地点" size="large" style="width:500px " />
+           <Input search enter-button placeholder="搜索商家或地点" size='large' style="width:500px "/>
         </div>
       </div>
       <div class="introduce">
-        <div class="waimai">美团外卖</div>
-        <div class="waimai">猫眼电影</div>
-        <div class="waimai">美团酒店</div>
-        <div class="waimai">民宿 / 公寓</div>
-        <div class="waimai">商家入驻</div>
-        <div class="waimai">美团公益</div>
+        <div>美团外卖</div>
+        <div>猫眼电影</div>
+        <div>美团酒店</div>
+        <div>民宿 / 公寓</div> 
+        <div>商家入驻</div> 
+        <div>美团公益</div> 
       </div>
     </div>
   </div>
@@ -27,7 +27,9 @@
 <script>
 export default {
   data() {
-    return {};
+    return {
+      
+    };
   },
   components: {},
   methods: {
@@ -41,7 +43,8 @@ export default {
         .catch(err => {
           console.log(err);
         });
-    }
+    },
+    
   },
   mounted() {
     this.get();
@@ -62,8 +65,9 @@ export default {
     border: 1px solid red;
     margin: 0 auto;
   }
-  .scout {
+  .scout{
     display: flex;
+    border: 1px solid red
   }
   .input {
     display: flex;
@@ -78,23 +82,16 @@ export default {
     font-weight: 700;
     line-height: 99px;
   }
-  .Magnifier {
+  .Magnifier{
     display: flex;
     margin: 30px 200px;
+    
   }
-  .introduce {
+  .introduce{
     display: flex;
     font-size: 16px;
     font-weight: 700;
-    color: black;
-    margin: 20px 200px;
-  }
-  .introduce div {
-    margin-left: 40px;
-  }
-  .waimai:hover{
-    color: #fe8c00;
-    cursor: pointer;
+    color: black
   }
 }
 </style>

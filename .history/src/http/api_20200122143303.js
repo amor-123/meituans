@@ -4,7 +4,7 @@ export default {
     position()  {       
         return  service.req('/position')    
     },
-    menu()  {       
-        return  service.req('/menu')    
+    position()  {       
+        return  service.req('/position')    
     },
 }

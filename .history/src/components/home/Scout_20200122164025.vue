@@ -14,11 +14,11 @@
       </div>
       <div class="introduce">
         <div class="waimai">美团外卖</div>
-        <div class="waimai">猫眼电影</div>
-        <div class="waimai">美团酒店</div>
-        <div class="waimai">民宿 / 公寓</div>
-        <div class="waimai">商家入驻</div>
-        <div class="waimai">美团公益</div>
+        <div>猫眼电影</div>
+        <div>美团酒店</div>
+        <div>民宿 / 公寓</div>
+        <div>商家入驻</div>
+        <div>美团公益</div>
       </div>
     </div>
   </div>
@@ -64,6 +64,7 @@ export default {
   }
   .scout {
     display: flex;
+    border: 1px solid red;
   }
   .input {
     display: flex;
@@ -87,14 +88,13 @@ export default {
     font-size: 16px;
     font-weight: 700;
     color: black;
-    margin: 20px 200px;
+    margin-left: 200px;
   }
   .introduce div {
     margin-left: 40px;
   }
   .waimai:hover{
-    color: #fe8c00;
-    cursor: pointer;
+    color: 
   }
 }
 </style>

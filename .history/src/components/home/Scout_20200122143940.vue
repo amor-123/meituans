@@ -1,24 +1,22 @@
 <template>
   <div class="box">
     <div class="boxs">
-      <div class="scout">
-        <div class="input">
+      <div>
+        <div class="img">
           <div>
             <img src="../../assets/meituan.png" alt />
           </div>
           <div class="meituan">美团</div>
         </div>
-        <div class="Magnifier">
-          <Input search enter-button placeholder="搜索商家或地点" size="large" style="width:500px " />
+        <div>
+          <AutoComplete
+            v-model="value3"
+            :data="data3"
+            :filter-method="filterMethod"
+            placeholder="input here"
+            style="width:200px"
+          ></AutoComplete>
         </div>
-      </div>
-      <div class="introduce">
-        <div class="waimai">美团外卖</div>
-        <div class="waimai">猫眼电影</div>
-        <div class="waimai">美团酒店</div>
-        <div class="waimai">民宿 / 公寓</div>
-        <div class="waimai">商家入驻</div>
-        <div class="waimai">美团公益</div>
       </div>
     </div>
   </div>
@@ -62,13 +60,10 @@ export default {
     border: 1px solid red;
     margin: 0 auto;
   }
-  .scout {
+  .img {
     display: flex;
   }
-  .input {
-    display: flex;
-  }
-  .input img {
+  .img img {
     width: 50px;
     height: 50px;
     margin-top: 25px;
@@ -77,24 +72,6 @@ export default {
     font-size: 40px;
     font-weight: 700;
     line-height: 99px;
-  }
-  .Magnifier {
-    display: flex;
-    margin: 30px 200px;
-  }
-  .introduce {
-    display: flex;
-    font-size: 16px;
-    font-weight: 700;
-    color: black;
-    margin: 20px 200px;
-  }
-  .introduce div {
-    margin-left: 40px;
-  }
-  .waimai:hover{
-    color: #fe8c00;
-    cursor: pointer;
   }
 }
 </style>

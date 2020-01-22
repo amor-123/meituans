@@ -64,6 +64,7 @@ export default {
   }
   .scout {
     display: flex;
+    border: 1px solid red;
   }
   .input {
     display: flex;

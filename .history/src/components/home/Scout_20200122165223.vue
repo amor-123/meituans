@@ -59,7 +59,6 @@ export default {
   .boxs {
     width: 1200px;
     height: 150px;
-    border: 1px solid red;
     margin: 0 auto;
   }
   .scout {

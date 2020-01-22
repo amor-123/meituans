@@ -64,6 +64,7 @@ export default {
   }
   .scout {
     display: flex;
+    border: 1px solid red;
   }
   .input {
     display: flex;
@@ -87,7 +88,7 @@ export default {
     font-size: 16px;
     font-weight: 700;
     color: black;
-    margin: 20px 200px;
+    margin-left: 200px;
   }
   .introduce div {
     margin-left: 40px;
